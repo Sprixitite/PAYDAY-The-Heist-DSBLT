@@ -1,0 +1,14 @@
+{
+  "name" : "DSBLT",
+  "description" : "DorHud-SuperBLT Compatibility Mod",
+  "author" : "Sprixitite",
+  "contact" : "N/A",
+  "version" : "1.0",
+  "priority" : 1000,
+  "is_library" : true,
+  "hooks" : [
+    {   "hook_id" : "core/lib/system/coresystem"        ,           "script_path" : "bltbase.lua"                   },
+    {   "hook_id" : "lib/managers/menumanager"          ,           "script_path" : "fakeDorhud/optionsMenus.lua"   },
+    {   "hook_id" : "lib/managers/localizationmanager"  ,           "script_path" : "shared/localization.lua"       }
+  ]
+}
